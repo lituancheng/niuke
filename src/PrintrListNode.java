@@ -40,6 +40,7 @@ public class PrintrListNode {
         listNode.next.next = new ListNode(6);
         listNode.next.next.next = new ListNode(7);
         listNode.next.next.next.next = new ListNode(9);
+        listNode.next.next.next.next.next = new ListNode(10);
         System.out.println(pln.printListByStack(listNode));
 
         pln.printListByRecursive(listNode);
