@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Stack;
 
 /**
- * 从尾到头打印链表每个节点的值
+ * 从尾到头打印链表每个节点的值——003
  *
  * @author ltc
  * @create 2018-01-04 15:01
