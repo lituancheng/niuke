@@ -16,7 +16,7 @@ public class ReplaceSpaceWithUnicode {
             }
         }
         int newLength =oldLength+spaceNum*2;    //每个空格转为%20后会多两个字节
-        int indexOld = oldLength-1; //就字符串最右边
+        int indexOld = oldLength-1; //旧字符串最右边
         int indexNew = newLength-1; //新字符串最右边
         str.setLength(newLength);
         for(;indexOld>=0 && indexOld<newLength;--indexOld){
